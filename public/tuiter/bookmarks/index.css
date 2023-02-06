@@ -1,0 +1,156 @@
+* {
+    background-color: black;
+    margin-left: 8px;
+}
+
+.wd-bm-title {
+    margin-left: 16px;
+    margin-top: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-bm-user {
+    margin-left: 16px;
+    color: lightgray;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.wd-bm-border {
+    overflow: auto;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 8px;
+}
+
+.wd-bm-border-up {
+    margin-top: -1px;
+}
+
+.wd-avatar-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.wd-author-name {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+.wd-author-handle {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-content {
+    max-width: 506px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+    color: white;
+    font-size: 15px;
+}
+
+.wd-left-10 {
+    float: left;
+    width: 10%;
+}
+
+.wd-left-85 {
+    float: left;
+    width: 85%;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-image-border {
+    overflow: auto;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.wd-content-image {
+    width: 504px;
+    height: 264px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.wd-max-context {
+    max-width: 506px;
+}
+
+.wd-content-border {
+    overflow: auto;
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-top: -5px;
+}
+
+.wd-content-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-content-text {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.wd-content-post {
+    padding: 12px;
+}
+
+.wd-icons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-icon-hyperlinks {
+    padding-right: 60px;
+    text-decoration: none;
+}
+
+.wd-icon-gray {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-icon-num-gray {
+    color: lightgray;
+    font-size: 15px;
+    display: inline;
+    padding-left: 12px;
+}
+
+.wd-icon-red {
+    color: red;
+    font-size: 15px;
+}
+
+.wd-icon-num-red {
+    color: red;
+    font-size: 15px;
+    display: inline;
+    padding-left: 12px;
+}
