@@ -401,6 +401,128 @@ p#id-selector-2 {
     }
 }
 
+.flex-container-1 {
+    border-width: 20px;
+    border-color: red;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-2 {
+    border-width: 6px;
+    border-color: yellowgreen;
+    border-style: solid;
+    display: flex;
+    justify-content: end;
+}
+
+.flex-container-3 {
+    border-width: 28px;
+    border-color: blueviolet;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container-4 {
+    border-width: 60px;
+    border-color: #f5c2c7;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-box {
+    border: 5px darkblue solid;
+    margin: 20px;
+    padding: 10px;
+}
+.flex-box-1 {
+    background-color: goldenrod;
+}
+.flex-box-2 {
+    background-color: cadetblue;
+    color: white;
+}
+.flex-box-3 {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.flex-container-5 {
+    border-width: 20px;
+    border-color: blue;
+    border-style: double;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.flex-container-6 {
+    border-width: 5px;
+    border-color: #7070ff;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container-7 {
+    border-width: 80px;
+    border-color: darkcyan;
+    border-style: solid;
+    display: flex;
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
+}
+
+.flex-container-7 > .flex-box {
+    flex-basis: 100%;
+}
+
+@media (min-width: 0px)
+and (max-width: 800px) {
+    body {
+        background-color: blanchedalmond;
+    }
+    .media-query-example {
+        background-color: forestgreen;
+        color: yellow;
+    }
+}
+@media (min-width: 800px)
+and (max-width: 1000px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    .media-query-example {
+        background-color: hotpink;
+        color: black;
+    }
+}
+@media (min-width: 1000px)
+and (max-width: 1800px) {
+    body {
+        background-color: goldenrod;
+        color: navajowhite;
+    }
+    .media-query-example {
+        background-color: #a52834;
+        color: dodgerblue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
