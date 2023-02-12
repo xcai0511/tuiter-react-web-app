@@ -154,3 +154,8 @@
     display: inline;
     padding-left: 12px;
 }
+
+.wd-back-button {
+    color: white;
+    text-decoration: none;
+}

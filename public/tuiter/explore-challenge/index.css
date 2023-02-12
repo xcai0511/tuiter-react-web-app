@@ -1,0 +1,122 @@
+.wd-button-full {
+    width: 100%;
+}
+
+.wd-round-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.wd-square-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.wd-content-image {
+    width: 100%;
+    height: auto;
+}
+
+.wd-text-bottomleft {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    color: white;
+}
+
+.wd-font-28 {
+    font-size: 28px;
+}
+
+.wd-font-20 {
+    font-size: 20px;
+}
+
+.wd-font-14 {
+    font-size: 14px;
+}
+
+.wd-logo-big {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.wd-no-border {
+    border: none;
+}
+
+.wd-no-bottom-border {
+    border-bottom: none;
+}
+
+.wd-no-top-border {
+    border-top: none;
+}
+
+.wd-top-border {
+    border-top-color: #efefef;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.wd-color-blue {
+    color: rgb(0, 172, 238);
+}
+
+.wd-bg-color-blue {
+    background-color: rgb(0, 172, 238);
+}
+
+.wd-color-black {
+    color: black;
+}
+
+.wd-bg-color-gray {
+    background-color: #efefef;
+}
+
+.wd-color-gold {
+    color: goldenrod;
+}
+
+.wd-active {
+    background-color: transparent;
+    color: black;
+}
+
+.wd-leftbar-text {
+    left: 40px;
+}
+
+.wd-button-follow {
+    background-color: black;
+    color: white;
+}
+
+#wd-nav-foryou {
+    border-bottom-color: rgb(0, 172, 238);
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+}
+
+.wd-content-border {
+    border-left-color: #efefef;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-color: #efefef;
+    border-right-width: 1px;
+    border-right-style: solid;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.wd-round-border {
+    border-radius: 20px;
+}

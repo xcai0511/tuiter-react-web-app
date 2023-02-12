@@ -1,122 +1,32 @@
-* {
-    background-color: black;
-    color: gray;
-    margin-left: 16px;
+.wd-button-full {
+    width: 100%;
 }
 
-.wd-search-border {
-    overflow: hidden;
-    border-style: solid;
-    border-color: rgb(47, 51, 54);
-    border-width: 1px;
-}
-
-.wd-search-tuiter {
-    border-radius: 50px;
-    background: darkgray;
-    color: white;
-    float:left;
-    width: 90%;
-    height: 35px;
-}
-
-.wd-gear {
-    right: 12px;
-    text-decoration: none;
-    font-size: 35px;
-    position: absolute;
-}
-
-.wd-hyperlink {
-    float: left;
-    padding: 16px;
-}
-
-.wd-hyperlink-border-foryou {
-    border-bottom-color: rgb(29, 161, 242);
-    border-width: 3px;
-    border-bottom-style: solid;
-}
-
-.wd-hyperlink-foryou {
-    float: left;
-    font-size: 15px;
-    color: rgb(29, 161, 242);
-    text-decoration: none;
-    margin-left: 0px;
-    font-weight: bold;
-}
-
-.wd-hyperlink-other {
-    float: left;
-    font-size: 15px;
-    color: rgb(110, 118, 125);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.wd-divider {
-    width: 98%;
-    height: 10px;
-    background-color: #373b3e;
-    border-style: solid;
-    border-color: rgb(47, 51, 54);
-    border-width: 1px;
-}
-
-.wd-suggest-border {
-    overflow: hidden;
-    border-style: solid;
-    border-color: rgb(47, 51, 54);
-    border-width: 1px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 10px;
-    margin-top: -1px;
-}
-
-.wd-post-topic {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-    padding-top: 6px;
-}
-
-.wd-post-title {
-    font-size: 13px;
-    font-weight: bold;
-    color: white;
-    padding-top: 6px;
-}
-
-.wd-post-author {
-    font-size: 13px;
-    color: white;
-    padding-top: 6px;
-    margin-left: 0px;
-}
-
-.wd-post-author-icon {
-    height: 13px;
-    width: 13px;
+.wd-round-icon {
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    margin-left: 0px;
 }
 
-.wd-post-timemark {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-    margin-left: 0px;
+.wd-content-image {
+    width: 100%;
+    height: auto;
 }
 
-.wd-post-image {
+.wd-text-bottomleft {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    font-size: 28px;
+    color: white;
+}
+
+.wd-logo-big {
     width: 100px;
     height: 100px;
-    margin-right: 16px;
-    float: right;
-    object-fit: cover;
-    display: flex;
-    border-radius: 25px;
+    border-radius: 20px;
 }
+
 
 
 
