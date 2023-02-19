@@ -1,6 +1,6 @@
 import WhoToFollowListItem from "./WhoToFollowListItem.js";
 import who from "./who.js"
-import NavigationSidebar from "../NavigationSidebar";
+
 const WhoToFollowList = () => {
     return (`
        <ul class="list-group">

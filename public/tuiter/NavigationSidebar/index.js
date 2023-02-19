@@ -1,4 +1,4 @@
-import navigation from "./navigation.js";
+import navigations from "./navigations.js";
 import NavigationSidebarItem from "./NavigationSidebarItem.js";
 
 const NavigationSidebar = (active) => {
@@ -10,7 +10,7 @@ const NavigationSidebar = (active) => {
             Home, Explore, Notifications,  Messages, etc. -->
             
      ${
-        navigation.map(nav => {
+        navigations.map(nav => {
             return (NavigationSidebarItem(nav, active));
         }).join('')
      }
@@ -23,5 +23,3 @@ const NavigationSidebar = (active) => {
  `);
 }
 export default NavigationSidebar;
-
-$('#wd-navigation-sidebar').append(`${NavigationSidebar('Home')}`);
