@@ -1,0 +1,18 @@
+.wd-logo-big {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.wd-content-image {
+    width: 100%;
+    height: auto;
+}
+
+.wd-text-bottomleft {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    font-size: 40px;
+    color: black;
+}
