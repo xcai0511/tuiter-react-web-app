@@ -47,15 +47,15 @@ const HomePostItem = ({post}) => {
                         <div className="row text-muted mt-2 mb-2">
                             <div className="col-3">
                                 <i className="bi bi-chat me-2"></i>
-                                <div className="d-inline"> {post.numComments}</div>
+                                <small className="d-inline"> {post.numComments}</small>
                             </div>
                             <div className="col-3">
                                 <i className="bi bi-arrow-repeat me-2"></i>
-                                <div className="d-inline"> {post.numRetuits}</div>
+                                <small className="d-inline"> {post.numRetuits}</small>
                             </div>
                             <div className="col-3">
                                 <i className="bi bi-heart me-2"></i>
-                                <div className="d-inline"> {post.numLikes}</div>
+                                <small className="d-inline"> {post.numLikes}</small>
                             </div>
                             <div className="col-3">
                                 <i className="bi bi-upload"></i>
