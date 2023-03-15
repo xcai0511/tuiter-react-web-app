@@ -1,7 +1,6 @@
 import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
-import TodoItem from "./todo/todo-item";
 import TodoList from "./todo/todo-list";
 
 function Assignment6() {
@@ -9,8 +8,6 @@ function Assignment6() {
         <div>
             <h1>Assignment 6</h1>
             <TodoList/>
-            <h3>Todo Item</h3>
-            <TodoItem/>
             <ConditionalOutput/>
             <Styles/>
             <Classes/>
