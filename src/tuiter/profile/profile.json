@@ -1,0 +1,16 @@
+[
+    {
+        "firstName": "Xiaojin",
+        "lastName": "Cai",
+        "handle": "@xcai0511",
+        "profilePicture": "icon-xc.png",
+        "bannerPicture": "banner-xc.png",
+        "bio": "MSCS student at Northeastern University",
+        "website": "https://github.com/xcai0511",
+        "location": "Boston, MA",
+        "dataOfBirth": "5/11/1998",
+        "dateJoined": "1/2023",
+        "followingCount": 234,
+        "followersCount": 345
+    }
+]
