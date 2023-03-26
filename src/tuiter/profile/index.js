@@ -9,7 +9,7 @@ const ProfileComponent = () => {
         <div className="border">
             <div className="row">
                 <Link to="/tuiter" className="col-1 d-inline link-dark -bold mt-2 ms-4">
-                    <h3 className="bi bi-arrow-left-circle"></h3>
+                    <h4 className="bi bi-arrow-left"></h4>
                 </Link>
                 <div className="col-10 ms-1 ms-xs-3">
                     <div className="fw-bold mb-0 wd-text-big">{profile.firstName} {profile.lastName}</div>

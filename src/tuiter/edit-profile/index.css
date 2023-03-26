@@ -1,0 +1,18 @@
+.wd-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wd-gray {
+    filter: contrast(50%);
+}
+.wd-move-up {
+    margin-top: -50px;
+}
+.wd-move-down {
+    top: 20px;
+}
+.wd-bio-size {
+    height: 100px;
+    width: 100%;
+}
