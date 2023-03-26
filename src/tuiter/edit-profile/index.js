@@ -23,6 +23,11 @@ const EditProfileComponent = () => {
         const nameArray = fullName.split(" ");
         firstName = nameArray[0];
         lastName = nameArray[1];
+        const date = new Date(dob);
+        const month = date.getMonth()+1;
+        const day = date.getDate();
+        const year = date.getFullYear();
+        const newDob = (month + "/" + day + "/" + year);
         profileItem = {
             ...profileItem,
             firstName: firstName,
@@ -30,7 +35,7 @@ const EditProfileComponent = () => {
             bio: bio,
             location: location,
             website: website,
-            dateOfBirth: dob
+            dateOfBirth: newDob
         }
         dispatch(editProfile(profileItem));
     }
@@ -113,11 +118,10 @@ const EditProfileComponent = () => {
                 <div className="mt-3">
                     <small className="text-muted">Birth date · </small>
                     <small className="text-primary" onClick={editOnClickHandler}>Edit</small>
-                    <br/>
-                    <label>
-                        <DatePicker id="datepicker" selected={dob} onChange={(dob) => setDob(dob)}/>
-                    </label>
                 </div>
+                <label>
+                    <DatePicker id="datepicker" selected={dob} onChange={(dob) => setDob(dob)}/>
+                </label>
                 <div className="mt-3">
                     <div className="d-inline">Switch to professional</div>
                     <a className="d-inline float-end bi bi-chevron-right"></a>
