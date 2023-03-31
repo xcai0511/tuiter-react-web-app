@@ -1,12 +1,12 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = ({post}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return (
         <div className="border-bottom border-muted">
@@ -18,9 +18,9 @@ const TuitItem = ({post}) => {
                     <div className="ms-4">
                         <i className="bi bi-x-lg float-end"
                            onClick={() => deleteTuitHandler(post._id)}></i>
-                        <div className="d-inline fw-bold">{post.userName} </div>
+                        <div className="d-inline fw-bold">{post.username} </div>
                         <i className="d-inline text-primary bi bi-check-circle-fill"></i>
-                        <div className="d-inline text-secondary"> @{post.userHandle} · {post.time}</div>
+                        <div className="d-inline text-secondary"> {post.handle} · {post.time}</div>
                         <div>{post.tuit}</div>
                         <TuitStats
                             key={post.id}

@@ -1,10 +1,17 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import {updateLikes} from "./tuits-reducer";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 const TuitStats = ({post}) => {
     const dispatch = useDispatch();
     const likeUpdate = () => {
-        dispatch(updateLikes(post))
+        const updateLiked = !post.liked;
+        const updateLikes = updateLiked ? (post.likes + 1) : (post.likes - 1);
+        dispatch(updateTuitThunk({
+            ...post,
+            likes: updateLikes,
+            liked: updateLiked
+        }))
     };
     return (
         <div className="row text-muted mt-2 mb-2">
